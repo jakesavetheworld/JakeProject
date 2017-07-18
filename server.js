@@ -9,7 +9,9 @@ http.createServer(function (request, response) {
 
     // 发送响应数据 "Hello World"
     response.end('Hello 嘟嘟\n');
-}).listen(3389);
+}).listen(80);
 
 // 终端打印如下信息
-console.log('Server running at http://127.0.0.1:3389/');
+console.log('Server running at http://127.0.0.1:80/');
+
+
